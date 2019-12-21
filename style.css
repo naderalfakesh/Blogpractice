@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #container{
@@ -12,7 +12,7 @@
 #small {
     box-sizing: border-box;
     width: 25%;
-    height: 100vh;
+    height: 160vh;
     background-color: #3d4f5d;
     padding-top: 200px;
     padding-right: 30px;
@@ -97,8 +97,9 @@ article #avatar{
 }
 
 article img{
+    box-sizing: border-box;
     display: inline-block;
-    width: 40%;
+    width: 45%;
     margin-right: 3%;
     margin-top: 20px;
 }
@@ -106,4 +107,25 @@ article img{
 h4{
     color: lightgray;
     text-transform: uppercase;
+}
+
+.wrapper{
+    width: 100%;
+
+}
+.lefty{
+    float: left;
+    width: 90%;
+
+}
+.righty{
+    margin-bottom: 20px;
+    float: left;
+    width: 10%;
+    text-align: right;
+}
+article #avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
