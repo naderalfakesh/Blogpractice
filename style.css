@@ -12,7 +12,7 @@
 #small {
     box-sizing: border-box;
     width: 25%;
-    height: 160vh;
+    height: 180vh;
     background-color: #3d4f5d;
     padding-top: 200px;
     padding-right: 30px;
@@ -90,11 +90,6 @@ article p span{
     background-color: gray;
 }
 
-article #avatar{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
 
 article img{
     box-sizing: border-box;
@@ -128,4 +123,25 @@ article #avatar{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+#footer{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: lightslategray;
+
 }
